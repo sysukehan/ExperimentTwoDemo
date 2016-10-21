@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="choose_mode_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primary_white</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:background">@drawable/circle_button</item>
+    </style>
+
+    <style name="my_radio_button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/small_margin</item>
+    </style>
+
+    <style name="my_edittext_title_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center|right</item>
+        <item name="android:textColor">@color/primary_black</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+    <style name="my_base_edittext_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/primary_black</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+    <style name="my_more_edittext_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/primary_black</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="my_button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/primary_white</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:background">@drawable/round_btn_bg</item>
+    </style>
+
+</resources>

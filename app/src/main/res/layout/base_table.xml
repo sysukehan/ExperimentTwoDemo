@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 基本表格布局，与实验一相同 -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+
+    <TableRow android:layout_marginBottom="@dimen/small_margin">
+
+        <TextView
+            style="@style/my_edittext_title_style"
+            android:text="@string/username_title" />
+
+        <EditText
+            android:id="@+id/base_username"
+            style="@style/my_base_edittext_style"
+            android:hint="@string/username_hint" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/my_edittext_title_style"
+            android:text="@string/password_title" />
+
+        <EditText
+            android:id="@+id/base_password"
+            style="@style/my_base_edittext_style"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword" />
+    </TableRow>
+</TableLayout>
+
